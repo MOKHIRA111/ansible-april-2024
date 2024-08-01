@@ -1,0 +1,7 @@
+[devops]
+vm1 ansible_host=34.222.249.117
+vm2 ansible_host=35.91.121.26
+vm3 ansible_host=54.190.3.194
+[db]
+vm4 ansible_host=34.220.118.195
+vm5 ansible_host=35.92.183.153

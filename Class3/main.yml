@@ -1,0 +1,12 @@
+- hosts: all 
+  become: yes
+  tasks: 
+  - name: Install apache and enable
+    include: apache.yml
+  - name:
+    include: php.yml
+  - name:
+    include: app.yml
+  - name: 
+    include:  mysql.yml
+
